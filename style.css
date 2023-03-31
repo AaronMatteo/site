@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    font-size: 100%;
+}
+.logo-h {
+    width: 85px;
+}
+.header,
+.nave {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header {
+    height: 5.5em;
+    justify-content: space-between;
+    padding: 0 8% ;
+}
+.nave {
+    gap: 2em;
+}
+.nave a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+main {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 248, 244);
+  }
+section, aside {
+    width: 45%;
+  }
+section header {
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(88, 18, 18);
+  }
+section div {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+  }
+.footer{
+    height: 100%;
+    background: rgb(88, 18, 18);
+    position: relative;
+  }
+  .bar {
+    padding: 0 20%;
+    width: 20px;
+  }
+.work {
+    text-decoration: none;
+    margin-left: 45px;
+  }
+.contato {
+    margin-left: 45px;
+  }
+  .footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+.footer .container{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 2rem 0.9rem;
+  }
+  .footer h2{
+    color: aliceblue;
+    font-size: 15px;
+
+  }
+  .footer p{
+    font-size: 15px;
+  }
+  .social {
+    text-align: center;
+    padding: 0 10%;
+    font-size: 15px;
+  }
